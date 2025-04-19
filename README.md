@@ -6,9 +6,9 @@
 
 ## 🔍 Descrição
 
-Projeto prático baseado no desafio **"A SOC Odyssey – Windows Event IDs"** da plataforma **CTFRoom**. Neste projeto, simulo o dia a dia de um analista de segurança em um **Security Operations Center (SOC)**, realizando investigações baseadas em **Windows Event Logs** e **Sysmon**, com foco em identificação de TTPs e correlação de eventos.
+Projeto prático baseado no desafio **"A SOC Odyssey – Windows Event IDs"** da plataforma **CTFRoom**. Neste projeto, simulo o dia a dia de um analista de segurança em um **Security Operations Center (SOC)**, realizando investigações baseadas em **Windows Event Logs** e **Sysmon**, com foco na identificação de **TTPs**, análise de **PowerShell**, e interpretação de **Event IDs** relevantes para detectar atividades maliciosas.
 
-O desafio exige análise minuciosa de eventos do sistema Windows, especialmente execução de **PowerShell**, persistência, movimentação lateral e técnicas adversárias. Utilizo o framework **MITRE ATT&CK** para mapear o comportamento malicioso e automatizo o processo de análise e extração de Event IDs relevantes usando **Python**.
+A análise será guiada pelo framework **MITRE ATT&CK**, mapeando as técnicas e táticas (TTPs) associadas a comportamentos adversários e criando uma correlação entre os eventos coletados. Utilizo **Python** para automatizar o processo de parsing e análise dos logs, com foco em identificar padrões e comportamentos específicos de ameaças.
 
 ---
 
